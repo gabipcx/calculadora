@@ -1,0 +1,40 @@
+
+/* Cor de fundo do card */
+.card-custom {
+  background-color: #fa96d2; /* rosa claro */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Centralizar imagem */
+.img-calculadora {
+  display: block;
+  margin: 0 auto 20px auto; 
+  width: 100px;
+  height: auto;
+}
+
+
+.btn-custom {
+  background-color: #fa96d2;  
+  border-color: #fc3cc9;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: #ff8ae4;
+  border-color: #fd5bd4;
+  color: #fc3cc9;
+  outline: none;
+  box-shadow: 0 0 8px #fa96d2;
+}
+
+/* Cor de fundo do body */
+body {
+  background-color: #ffd9e6; /* rosa bem clarinho */
+}
+
